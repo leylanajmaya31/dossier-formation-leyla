@@ -44,7 +44,7 @@
 												"$ref": "AAAAAAGIuVkGa/XPJw4="
 											},
 											"font": "Arial;13;0",
-											"left": 128.72998046875,
+											"left": 120.72998046875,
 											"top": 29,
 											"width": 226.9384765625,
 											"height": 13,
@@ -57,7 +57,7 @@
 												"$ref": "AAAAAAGIuVkGa/XPJw4="
 											},
 											"font": "Arial;13;1",
-											"left": 109,
+											"left": 101,
 											"top": 29,
 											"width": 14.72998046875,
 											"height": 13,
@@ -65,7 +65,7 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 104,
+									"left": 96,
 									"top": 24,
 									"width": 1145,
 									"height": 841,
@@ -439,9 +439,9 @@
 												"$ref": "AAAAAAGIuV7UKPbDmnU="
 											},
 											"font": "Arial;13;0",
-											"left": 598,
+											"left": 584,
 											"top": 164,
-											"width": 145.2216796875,
+											"width": 173.41162109375,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -449,7 +449,7 @@
 												"$ref": "AAAAAAGIuV7UKPbEVLs="
 											},
 											"edgePosition": 1,
-											"text": "2 : Saisir les informations"
+											"text": "2 : Demander les informations"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -888,7 +888,7 @@
 									"top": 624,
 									"width": 409,
 									"height": 81,
-									"text": "(5) Scénario d'erreur :                                                                       \n5.1 Le compte existe déja Fin du  scénario "
+									"text": "(5) Scénario d'erreur :                                                                       \n5.1 Le compte existe déja \nFin du  scénario "
 								},
 								{
 									"_type": "UMLSeqMessageView",
@@ -1002,6 +1002,130 @@
 									}
 								},
 								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGIuXWJh/i7gyo=",
+									"_parent": {
+										"$ref": "AAAAAAGIuVkGa/XOJ3c="
+									},
+									"font": "Arial;13;0",
+									"left": 448,
+									"top": 736,
+									"width": 457,
+									"height": 89,
+									"text": "(6) Scénario alternatif:                                                                         \n6.1  Le SI informe le visiteur que le mot de passe est incorrecte\n6.2 Retour à l'étape 2"
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGIude8H/km5gE=",
+									"_parent": {
+										"$ref": "AAAAAAGIuVkGa/XOJ3c="
+									},
+									"model": {
+										"$ref": "AAAAAAGIude8H/klE7M="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGIude8H/knJTs=",
+											"_parent": {
+												"$ref": "AAAAAAGIude8H/km5gE="
+											},
+											"model": {
+												"$ref": "AAAAAAGIude8H/klE7M="
+											},
+											"font": "Arial;13;0",
+											"left": 984,
+											"top": 504,
+											"width": 119.22802734375,
+											"height": 13,
+											"alpha": 1.6220324876409393,
+											"distance": 78.10249675906654,
+											"hostEdge": {
+												"$ref": "AAAAAAGIude8H/km5gE="
+											},
+											"edgePosition": 1,
+											"text": "7 : Ajouter le compte"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGIude8H/komok=",
+											"_parent": {
+												"$ref": "AAAAAAGIude8H/km5gE="
+											},
+											"model": {
+												"$ref": "AAAAAAGIude8H/klE7M="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 989,
+											"top": 507,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGIude8H/km5gE="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGIude8H/kpmcY=",
+											"_parent": {
+												"$ref": "AAAAAAGIude8H/km5gE="
+											},
+											"model": {
+												"$ref": "AAAAAAGIude8H/klE7M="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 955,
+											"top": 508,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGIude8H/km5gE="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGIude8H/kqMyM=",
+											"_parent": {
+												"$ref": "AAAAAAGIude8H/km5gE="
+											},
+											"model": {
+												"$ref": "AAAAAAGIude8H/klE7M="
+											},
+											"font": "Arial;13;0",
+											"left": 929,
+											"top": 524,
+											"width": 14,
+											"height": 29
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGIuVxhX/Z3lGI="
+									},
+									"tail": {
+										"$ref": "AAAAAAGIuVxhX/Z3lGI="
+									},
+									"points": "935:504;965:504;965:524;942:524",
+									"nameLabel": {
+										"$ref": "AAAAAAGIude8H/knJTs="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGIude8H/komok="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGIude8H/kpmcY="
+									},
+									"activation": {
+										"$ref": "AAAAAAGIude8H/kqMyM="
+									}
+								},
+								{
 									"_type": "UMLSeqMessageView",
 									"_id": "AAAAAAGIuWIoH/c87Dk=",
 									"_parent": {
@@ -1031,7 +1155,7 @@
 												"$ref": "AAAAAAGIuWIoH/c87Dk="
 											},
 											"edgePosition": 1,
-											"text": "7 : Afficher message compte ajouté"
+											"text": "8 : Afficher message compte ajouté"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1112,19 +1236,6 @@
 									"activation": {
 										"$ref": "AAAAAAGIuWIoH/dAHHk="
 									}
-								},
-								{
-									"_type": "UMLNoteView",
-									"_id": "AAAAAAGIuXWJh/i7gyo=",
-									"_parent": {
-										"$ref": "AAAAAAGIuVkGa/XOJ3c="
-									},
-									"font": "Arial;13;0",
-									"left": 360,
-									"top": 744,
-									"width": 385,
-									"height": 94,
-									"text": "(6) Scénario alternatif:                                                                         \n6.1 le mot de passe de l'utilisateur est incorrecte                      6.2 le visiteur saisit ses informations"
 								}
 							]
 						}
@@ -1150,7 +1261,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGIuVkGa/XNDpk="
 							},
-							"name": "Saisir les informations",
+							"name": "Demander les informations",
 							"source": {
 								"$ref": "AAAAAAGIuVxhX/Zw/lw="
 							},
@@ -1208,6 +1319,20 @@
 								"$ref": "AAAAAAGIuVkGa/XNDpk="
 							},
 							"name": "Vérifier si le mot de passe est valide",
+							"source": {
+								"$ref": "AAAAAAGIuVxhX/Zw/lw="
+							},
+							"target": {
+								"$ref": "AAAAAAGIuVxhX/Zw/lw="
+							}
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGIude8H/klE7M=",
+							"_parent": {
+								"$ref": "AAAAAAGIuVkGa/XNDpk="
+							},
+							"name": "Ajouter le compte",
 							"source": {
 								"$ref": "AAAAAAGIuVxhX/Zw/lw="
 							},
